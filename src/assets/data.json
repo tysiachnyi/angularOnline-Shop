@@ -5,11 +5,11 @@
     "CPT": 34,
     "JHB":  70,
     "DBN":  2,
-    "Total Stock": 106,
-    "Dealer Price" : 750,
-    "Retail Price": 952.1700,
+    "TotalStock": 106,
+    "DealerPrice" : 750,
+    "RetailPrice": 952.1700,
     "Manufacturer":  "Tenda",
-    "Image URL": "https://scoop.co.za/download/marketing/images/4G180.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/4G180.jpg"
   },
   {
     "SKU": "4G680",
@@ -17,11 +17,11 @@
     "CPT": 0,
     "JHB": 0,
     "DBN": 0,
-    "Total Stock": 0,
-    "Dealer Price": 995,
-    "Retail Price": 1252.1700,
+    "TotalStock": 0,
+    "DealerPrice": 995,
+    "RetailPrice": 1252.1700,
     "Manufacturer": "Tenda",
-    "Image URL": "https,://scoop.co.za/download/marketing/images/4G680.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/4G680.jpg"
   },
   {
     "SKU": "ACB-AC",
@@ -29,11 +29,11 @@
     "CPT": 20,
     "JHB": 101,
     "DBN": 3,
-    "Total Stock": 124,
-    "Dealer Price": 1025,
-    "Retail Price": 1282.6100,
+    "TotalStock": 124,
+    "DealerPrice": 1025,
+    "RetailPrice": 1282.6100,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/ACB-AC.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-AC.jpg"
   },
   {
     "SKU": "ACB-ISP",
@@ -41,11 +41,11 @@
     "CPT": 159,
     "JHB": 107,
     "DBN": 30,
-    "Total Stock": 296,
-    "Dealer Price": 395,
-    "Retail Price": 478.2600,
+    "TotalStock": 296,
+    "DealerPrice": 395,
+    "RetailPrice": 478.2600,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/ACB-ISP.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-ISP.jpg"
   },
   {
     "SKU": "AF-11FX",
@@ -53,11 +53,11 @@
     "CPT": 10,
     "JHB": 43,
     "DBN": 2,
-    "Total Stock": 55,
-    "Dealer Price": 8595,
-    "Retail Price": 10691.3000,
+    "TotalStock": 55,
+    "DealerPrice": 8595,
+    "RetailPrice": 10691.3000,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AF-11FX.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FX.jpg"
   },
   {
     "SKU": "AF-11FXDUPL",
@@ -65,11 +65,11 @@
     "CPT": 21,
     "JHB": 79,
     "DBN": 2,
-    "Total Stock": 102,
-    "Dealer Price": 2650,
-    "Retail Price": 3300.0000,
+    "TotalStock": 102,
+    "DealerPrice": 2650,
+    "RetailPrice": 3300.0000,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AF-11FXDUPL.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FXDUPL.jpg"
   },
   {
     "SKU": "AF-11G35",
@@ -77,11 +77,11 @@
     "CPT": 15,
     "JHB": 56,
     "DBN": 3,
-    "Total Stock": 74,
-    "Dealer Price": 5325,
-    "Retail Price": 6652.1700,
+    "TotalStock": 74,
+    "DealerPrice": 5325,
+    "RetailPrice": 6652.1700,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AF-11G35.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11G35.jpg"
   },
   {
     "SKU": "AF-5XHD",
@@ -89,11 +89,11 @@
     "CPT": 64,
     "JHB": 117,
     "DBN": 9,
-    "Total Stock": 190,
-    "Dealer Price": 5495,
-    "Retail Price": 6865.2200,
+    "TotalStock": 190,
+    "DealerPrice": 5495,
+    "RetailPrice": 6865.2200,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AF-5XHD.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AF-5XHD.jpg"
   },
   {
     "SKU": "AFI-INSK",
@@ -101,11 +101,11 @@
     "CPT": 37,
     "JHB": 113,
     "DBN": 5,
-    "Total Stock": 155,
-    "Dealer Price": 2495,
-    "Retail Price": 3126.0900,
+    "TotalStock": 155,
+    "DealerPrice": 2495,
+    "RetailPrice": 3126.0900,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AFI-INSK.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSK.jpg"
   },
   {
     "SKU": "AFI-INSR",
@@ -113,11 +113,11 @@
     "CPT": 23,
     "JHB": 52,
     "DBN": 3,
-    "Total Stock": 78,
-    "Dealer Price": 1375,
-    "Retail Price": 1717.3900,
+    "TotalStock": 78,
+    "DealerPrice": 1375,
+    "RetailPrice": 1717.3900,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AFI-INSR.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSR.jpg"
   },
   {
     "SKU": "AIR-D523X",
@@ -125,11 +125,11 @@
     "CPT": 16,
     "JHB": 36,
     "DBN": 5,
-    "Total Stock": 57,
-    "Dealer Price": 1450,
-    "Retail Price": 1821.7400,
+    "TotalStock": 57,
+    "DealerPrice": 1450,
+    "RetailPrice": 1821.7400,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AIR-D523X.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D523X.jpg"
   },
   {
     "SKU": "AIR-D530",
@@ -137,11 +137,11 @@
     "CPT": 17,
     "JHB": 18,
     "DBN": 5,
-    "Total Stock": 40,
-    "Dealer Price": 1850,
-    "Retail Price": 2304.3500,
+    "TotalStock": 40,
+    "DealerPrice": 1850,
+    "RetailPrice": 2304.3500,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg"
   },
   {
     "SKU": "AIR-D530LW",
@@ -149,10 +149,10 @@
     "CPT": 62,
     "JHB": 243,
     "DBN": 16,
-    "Total Stock": 321,
-    "Dealer Price": 1395,
-    "Retail Price": 1734.7800,
+    "TotalStock": 321,
+    "DealerPrice": 1395,
+    "RetailPrice": 1734.7800,
     "Manufacturer": "Ubiquiti",
-    "Image URL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg"
+    "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg"
   }
 ]
