@@ -8,21 +8,27 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductPageComponent } from './main-page/product-page/product-page.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { LoginPageComponent } from './login-page/login-page.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {AuthGuard} from './shared/services/auth.guard';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainLayoutComponent,
     MainPageComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -4,12 +4,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <span class="navbar-brand" href="#" style="margin-left: 20px"><b>Логотип</b></span>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 40px">
-            <li class="nav-item active">
+        <ul  class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 40px">
+            <li  class="nav-item">
                 <a style="color: white" class="nav-item" [routerLink]="['/']">Продукция</a>
             </li>
         </ul>
-        <span>Выйти из аккаунта</span>
+      <button style="color: white" class="nav-item btn" (click)="auth.logout()">Выйти из аккаунта</button>
     </div>
 </nav>
 

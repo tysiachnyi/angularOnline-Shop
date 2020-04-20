@@ -4,7 +4,7 @@
 <div style="margin-top: 30px; margin-bottom: 50px">
 
     <div class="card-deck">
-        <div class="col-md-4 col-xs-6" *ngFor="let product of products | paginate: { itemsPerPage: 10, currentPage: page }" style="margin-top: 10px">
+        <div class="col-md-4 col-xs-6" *ngFor="let product of products | paginate: { itemsPerPage: 25, currentPage: page }" style="margin-top: 10px">
         <div class="card onHover">
             <a style="color: black" [routerLink]="['/product', product.SKU]">
             <img class="card-img-top" [src]="product.ImageURL"  alt="Card image cap">

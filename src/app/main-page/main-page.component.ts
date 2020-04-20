@@ -2,6 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from "rxjs";
 import {ProductService} from "../shared/services/product.service";
 import {Product} from "../shared/models/interfaces";
+import {AuthService} from "../shared/services/auth.service";
 
 @Component({
   selector: 'app-main-page',
@@ -13,21 +14,18 @@ export class MainPageComponent implements OnInit, OnDestroy {
   sub = Subscription;
   page: number;
 
-  constructor(private productService: ProductService) {
+  constructor(private productService: ProductService, private auth: AuthService) {
   }
 
   ngOnInit(){
     this.productService.getAll().subscribe((response: Product) => {
       this.products = response;
-    })
+    });
     this.page = 1;
+    this.auth.isAuthenticated();
   }
 
 
   ngOnDestroy() {
-    // if (this.pSub) {
-    //   this.pSub.unsubscribe();
-    // }
-
   }
 }

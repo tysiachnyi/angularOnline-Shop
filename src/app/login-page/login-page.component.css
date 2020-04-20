@@ -1,0 +1,12 @@
+.btn-local {
+    background: #0cc5c5;
+    color: white;
+}
+
+.btn-local:hover {
+    background: #0aaaaa;
+}
+
+small {
+  color: red;
+}
