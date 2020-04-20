@@ -12,7 +12,7 @@ export class ProductService {
   constructor(private http: HttpClient) {
   }
 
-  getAll(): Observable<Product> {
+  getAll(): Observable<any> {
     return this.http.get(`http://localhost:4200/assets/data.json`)
   };
 }

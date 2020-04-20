@@ -9,18 +9,18 @@ import {Product} from "../shared/models/interfaces";
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit, OnDestroy {
-  products: Product = [];
+  products: any = [];
   sub = Subscription;
+  page: number;
 
   constructor(private productService: ProductService) {
   }
 
   ngOnInit(){
-    // @ts-ignore
     this.productService.getAll().subscribe((response: Product) => {
       this.products = response;
-      console.log(this.products);
     })
+    this.page = 1;
   }
 
 

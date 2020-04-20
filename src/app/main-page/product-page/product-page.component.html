@@ -1,0 +1,41 @@
+<div style="margin-top: 50px">
+    <h2 class="text-center" style="color: #0cc5c5">Товар</h2>
+</div>
+<div style="margin-top: 50px">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-thumbnail" [src]="products[0].ImageURL" alt="">
+        </div>
+        <div class="col-md-6">
+            <small class="text-muted">Роутер</small>
+            <h2>{{products[0].SKU}}</h2>
+            <small>Количество товара: {{products[0].TotalStock}}</small>
+            <p style="color: #02a502">{{products[0].RetailPrice}} грн</p>
+            <p>{{products[0].Description}}</p>
+        </div>
+        <div class="col-md-12" style="margin-top: 50px; color: #0cc5c5">
+            <h2 class="text-center">Похожие товары</h2>
+            <div class="card-deck">
+                <div class="col-md-4 col-xs-6" style="margin-top: 10px" *ngFor="let product of allProducts | slice:1:4; let i=index" >
+                    <div class="card onHover">
+                        <a style="color: black" [routerLink]="['/product', product.SKU]">
+                            <img class="card-img-top" style="height: 150px;" [src]="product.ImageURL"  alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <small class="text-muted">Роутер</small>
+                                        <p><b>{{product.SKU}}</b></p>
+                                    </div>
+                                    <div class="col-6">
+                                        <br>
+                                        <p class="text-right" style="color: #02a502">{{product.RetailPrice}} грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
