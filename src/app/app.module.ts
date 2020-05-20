@@ -11,7 +11,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { LoginPageComponent } from './login-page/login-page.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {AuthGuard} from './shared/services/auth.guard';
-import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { TestComponent } from './test/test.component';
     MainPageComponent,
     ProductPageComponent,
     LoginPageComponent,
-    TestComponent
   ],
   imports: [
     BrowserModule,
